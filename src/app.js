@@ -1,5 +1,6 @@
 import React from 'react';
-import { Chart } from 'chart.js';
+import { Chart, registerables } from 'chart.js';
+Chart.register(...registerables);
 
 // Constants and Configuration
 console.log('Loading app.js...');
