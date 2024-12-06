@@ -427,6 +427,7 @@ const WeatherCharts = () => {
   const chartRef = React.useRef(null);
   const rainChartRef = React.useRef(null);
   const [charts, setCharts] = React.useState({ temp: null, rain: null });
+  const [weatherData, setWeatherData] = React.useState([]); // Declare weatherData state
 
   // Update weather data when city or crop changes
   React.useEffect(() => {
