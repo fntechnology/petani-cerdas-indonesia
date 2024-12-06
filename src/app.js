@@ -5,7 +5,7 @@ Chart.register(...registerables);
 // Constants and Configuration
 console.log('Loading app.js...');
 
-const GEMINI_API_KEY = process.env.REACT_APP_GOOGLE_GEMINI_API_KEY;
+const GEMINI_API_KEY = "AIzaSyAcwroBdyqURbkXLDUkzRQmDTH7FyX0TRA";
 
 // Color constants
 const COLORS = {
