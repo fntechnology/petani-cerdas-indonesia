@@ -1,3 +1,6 @@
+import React from 'react';
+import { Chart } from 'chart.js';
+
 // Constants and Configuration
 console.log('Loading app.js...');
 
@@ -421,7 +424,6 @@ const WeatherCharts = () => {
   const [analysis, setAnalysis] = React.useState('');
   const [aiAnalysis, setAiAnalysis] = React.useState('');
   const [analysisProgress, setAnalysisProgress] = React.useState(0);
-  const [weatherData, setWeatherData] = React.useState([]);
   const chartRef = React.useRef(null);
   const rainChartRef = React.useRef(null);
   const [charts, setCharts] = React.useState({ temp: null, rain: null });
