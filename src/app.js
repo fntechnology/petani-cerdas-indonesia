@@ -3305,33 +3305,4 @@ const App = () => {
   );
 }
 
-// Render aplikasi
-console.log('Attempting to render app...');
-const domContainer = document.getElementById('root');
-console.log('Root element:', domContainer);
-const root = ReactDOM.createRoot(domContainer);
-root.render(
-  <App />
-);
-
-// Footer
-<footer style={{
-  backgroundColor: COLORS.primary,
-  color: 'white',
-  padding: '1rem',
-  textAlign: 'center',
-  position: 'fixed',
-  bottom: 0,
-  left: 0,
-  right: 0
-}}>
-  <p style={{ fontSize: '0.875rem', marginBottom: '0.5rem' }}>
-    PENGEMBANG PLATFORM
-  </p>
-  <p style={{ fontSize: '0.875rem', marginBottom: '0.5rem' }}>
-    Laboratorium Teaching and Research Farm, Fakultas Pertanian, Universitas Jambi
-  </p>
-  <p style={{ fontSize: '0.875rem', marginBottom: '0.5rem' }}>
-    Tahun 2024
-  </p>
-</footer>
+export default App;
