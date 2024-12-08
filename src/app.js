@@ -3704,7 +3704,7 @@ const App = () => {
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
       }}>
         <div style={{ marginTop: '2rem' }}>
-          <h1 style={{ fontSize: '2.5rem', color: COLORS.primary }}>PLATFORM PETANI CERDAS INDONESIA</h1>
+          <h1 style={{ fontSize: '2.5rem', color: COLORS.primary }}>PETANI CERDAS INDONESIA</h1>
           <p style={{ fontSize: '1.2rem', color: COLORS.primary, marginBottom: '1rem' }}>Platform untuk analisa cerdas dan ilmiah dibidang pertanian</p>
           <div>
             <p style={{ 
