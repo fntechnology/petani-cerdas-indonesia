@@ -1,8 +1,16 @@
 import http.server
 import socketserver
 import os
+import socket
 
-PORT = 8000
+def find_free_port():
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.bind(('', 0))
+        s.listen(1)
+        port = s.getsockname()[1]
+    return port
+
+PORT = find_free_port()
 
 class CustomHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
